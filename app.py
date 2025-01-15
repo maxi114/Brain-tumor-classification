@@ -17,6 +17,7 @@ from google.colab import userdata
 from dotenv import load_dotenv
 load_dotenv()
 
+#google Api
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 output_dir = 'saliency_maps'
