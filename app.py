@@ -20,6 +20,7 @@ load_dotenv()
 #google Api
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
+#saliency maps
 output_dir = 'saliency_maps'
 os.makedirs(output_dir, exist_ok=True)
 
